@@ -7,9 +7,10 @@ GET http://localhost:5050/property/find/latest
 
 ##########
 
-GET http://localhost:5050/property/find?type=single home
+GET http://localhost:5050/property/find/byquery?priceRange=100000-200000&type=single home&location=Milano
 
 ##########
+
 
 GET http://localhost:5050/property/find/648c80ffd500a2a47fadd858
 
@@ -17,7 +18,7 @@ GET http://localhost:5050/property/find/648c80ffd500a2a47fadd858
 
 POST http://localhost:5050/property HTTP/1.1
 content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGM4MGZmZDUwMGEyYTQ3ZmFkZDg1OCIsImlhdCI6MTY4NzE3MzA0NywiZXhwIjoxNjg3MTkxMDQ3fQ.WVAojmdWGK8w2KRZYtrtQi2-PAuVJYmSWvu8Zlz7xKc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGM4MGZmZDUwMGEyYTQ3ZmFkZDg1OCIsImlhdCI6MTY4NzU0MDQ0OCwiZXhwIjoxNjg3NTU4NDQ4fQ.Gynv2rHXbLzF6agmlyM9jRTorpjyPaTioNS1WUOMx3g
 
 {     
       "seller": "648c80ffd500a2a47fadd858",
@@ -25,7 +26,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGM4MGZmZ
       "description": "property5description",
       "type": "single home",
       "img": "https://www.casetraprivati.it/immobile/44046/cover?fmt=tmb",
-      "price": 150000,
+      "price": 250000,
       "squaremeters": 150,
       "location": "Capannori",
       "bedrooms": 8,

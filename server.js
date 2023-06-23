@@ -14,6 +14,8 @@ app.use(express.urlencoded({extended: true}))
 app.use ('/auth', authRoute)
 app.use ('/property', propertyRoute)
 app.use ('/upload', uploadRoute)
+app.use ('/images', express.static('public/images'))
+app.use('/property/find', propertyRoute);
 
 
 
