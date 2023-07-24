@@ -54,7 +54,7 @@ const PropertySchema = new mongoose.Schema({
 
     latest: {
         type: Boolean,
-        default: false
+        default: true
     }
 },
 {

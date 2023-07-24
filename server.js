@@ -16,6 +16,7 @@ app.use ('/property', propertyRoute)
 app.use ('/upload', uploadRoute)
 app.use ('/images', express.static('public/images'))
 app.use('/property/find', propertyRoute);
+app.use('/property/find/:id', propertyRoute)
 
 
 

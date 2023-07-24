@@ -18,12 +18,12 @@ GET http://localhost:5050/property/find/648c80ffd500a2a47fadd858
 
 POST http://localhost:5050/property HTTP/1.1
 content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGM4MGZmZDUwMGEyYTQ3ZmFkZDg1OCIsImlhdCI6MTY4NzU0MDQ0OCwiZXhwIjoxNjg3NTU4NDQ4fQ.Gynv2rHXbLzF6agmlyM9jRTorpjyPaTioNS1WUOMx3g
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGM4MGZmZDUwMGEyYTQ3ZmFkZDg1OCIsImlhdCI6MTY4NzcxMTM3MiwiZXhwIjoxNjg3NzI5MzcyfQ.noY-NzqiaULnAVbIAb005W0Uqu5AUJtna-iB8e-1GUw
 
 {     
       "seller": "648c80ffd500a2a47fadd858",
-      "title": "property5",
-      "description": "property5description",
+      "title": "property7",
+      "description": "property7description",
       "type": "single home",
       "img": "https://www.casetraprivati.it/immobile/44046/cover?fmt=tmb",
       "price": 250000,
@@ -37,7 +37,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGM4MGZmZ
 
 PATCH http://localhost:5050/property/648c80ffd500a2a47fadd858 HTTP/1.1
 content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGM4MGZmZDUwMGEyYTQ3ZmFkZDg1OCIsImlhdCI6MTY4NzE3Mzg3MCwiZXhwIjoxNjg3MTkxODcwfQ.iEBs_xnD54-Zun4ixyEJhvNMnP6aGae4HKi-5hUFYlY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGM4MGZmZDUwMGEyYTQ3ZmFkZDg1OCIsImlhdCI6MTY4NzcxMTM3MiwiZXhwIjoxNjg3NzI5MzcyfQ.noY-NzqiaULnAVbIAb005W0Uqu5AUJtna-iB8e-1GUw
 
 {     
       "seller": "648c80ffd500a2a47fadd858",
